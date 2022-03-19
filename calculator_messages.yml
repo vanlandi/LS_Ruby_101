@@ -1,0 +1,16 @@
+welcome: "Welcome to Calculator! Enter your name:"
+valid_name: "Make sure to enter a valid name."
+first_number: "What's the first number?"
+nonvalid_num: "Hmm...that doesn't look like a valid number"
+second_number: "What's the second number?"
+operator_prompt: <<-MSG
+    What operation would you like to perform?
+    1) add
+    2) subtract
+    3) multiply
+    4) divide
+  MSG
+operator_valid: "Must choose 1, 2, 3, or 4"
+op_message_to_op: "#{operation_to_message(operator)} the two nubmers..."
+result: "The result is #{result}"
+calc_again?: "Do you want to perform another calculation? (Y to calculate again)"
